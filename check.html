@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Service Area Checker</title>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="js/map.js"></script>
+		<script src="js/check.js"></script>
+		<script src="http://ajax.microsoft.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+		<link rel="stylesheet" href="css/check.css"/>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjzEeW8yY7LjBb-JktO97ts9WNbCmDSbI&sensor=false"></script>
+	</head>
+	<body>
+		<div class="container">
+		  <div class="content">
+		    <h1>Service Area Checker</h1>
+		    	<p>Enter the address below:</p>
+				<p><form action="" name="inputs" method="POST" id="inputs">
+				<p><input type="text" name="address" id="address" /></p>
+				<p><input type="submit" name="submit" value="Submit" id="submit" /></p>
+				</form></p>
+				<span id="debug"></span>
+				<h2><div id="results"></div></h2>
+				<div id="map_canvas"></div>
+		    </div>
+		</div>
+	</body>
+</html>
